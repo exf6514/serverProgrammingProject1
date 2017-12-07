@@ -1,0 +1,21 @@
+SetEnv DB exf6514
+SetEnv DB_SERVER localhost
+SetEnv DB_PASSWORD requireslowly
+SetEnv DB_USER exf6514 
+
+# supress php errors
+php_flag display_startup_errors off
+#
+# you can set display_errors off if you like
+php_flag display_errors on
+#
+# you can set html_errors off if you like
+php_flag html_errors on
+#
+# this is the same as E_ALL
+php_value error_reporting 32767
+# enable PHP error logging
+#
+# DO NOT change  log_errors and error_log
+php_flag log_errors on
+php_value error_log "/home/MAIN/exf6514/logs/php_error_log"

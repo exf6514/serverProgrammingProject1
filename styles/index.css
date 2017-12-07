@@ -1,0 +1,142 @@
+nav{
+    height: auto;
+    overflow-y: auto;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+#nav-h1{
+    color: #F26850;
+}    
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li a {
+  color: white;
+  display: block;
+  line-height: 3em;
+  padding: 1em 3em;
+  text-decoration: none;
+}
+#title-area{
+    float: left;
+}
+#nav-items{
+    float: right;
+    justify-content: flex-end;
+}
+#log-in-out-button{
+    height: auto;
+    width: auto;
+    padding: 0;
+}
+body {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: #2F2FA2;
+    color: white;
+ }
+ hr, .price{
+     color: #F26850;
+ }
+ a{
+     color: white;
+ }
+ .well{
+     background-color: #242582;
+     border: none;
+     margin: 2%;
+ }
+ .playerJersey{
+     float: left;
+ }
+ button{
+     color: white;
+     background: linear-gradient(to right, #F64C72 , #F26850);
+     border: none;
+     border-radius: 7px;
+     padding: 10px;
+ }
+ button.disabled{
+     background: grey;
+     color: darkgray;
+ }
+ button.disabled:hover{
+     cursor: not-allowed;
+ }
+#paginationWrapper{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    text-align: center;
+
+}
+#paginationWrapper a{
+    margin: 0 1vw;
+}
+a:hover{
+    color: #F26850;
+    text-decoration: none;
+}
+#emptyCartWrapper{
+    width: 100%;
+}
+#emptyCartWrapper > div > button{
+    margin: 0 2%;
+}
+.centerContentWrapper{
+    display: flex;
+    justify-content: center;
+}
+#frmLogin { 
+    padding: 20px 40px;
+    width: 20vw;
+    margin: 0 auto;
+	background: #242582;
+	color: white;
+	display: inline-block;
+	border-radius: 4px; 
+}
+.field-group { 
+    margin:15px 0px; 
+}
+select{
+    width: 100%;
+}
+select, option{
+    color: #242582;
+}
+.input-field {
+    padding: 8px;
+    width: 100%;
+	border: #A3C3E7 1px solid;
+    border-radius: 4px; 
+    color: #242582;
+}
+.form-submit-button {
+	background: #F26850;
+	border: 0;
+	padding: 8px 20px;
+	border-radius: 4px;
+    color: white;
+    text-transform: uppercase; 
+}
+.success-message, .title{
+    color: #00FF87;
+    text-align: center;
+}
+.error-message{
+    text-align: center;
+    color: #F26850;
+}
